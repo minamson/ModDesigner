@@ -56,7 +56,7 @@ namespace WindowsFormsApp1
                 {
                     modFile(file);
                     var p = (100 * (double) (i + 1) / files.Count);
-                    worker.ReportProgress((int)p, files[i]);// 퍼센트 계산필요
+                    worker.ReportProgress((int)p, files[i]);
                     i++;
                 }
             }
